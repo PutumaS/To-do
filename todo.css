@@ -1,0 +1,99 @@
+body{
+    background: yellow;
+    text-align: center;
+    font-family:"Open Sans"; sans-serif;
+}
+
+.into {
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1 {
+    color:chocolate
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    font-weight:600;
+
+}
+
+#first {
+    margin: top 10px;
+    color:blueviolet
+
+}
+#second {
+    color:aquamarine
+
+}
+#third {
+    color:chartreuse
+    margin-button: 30px
+
+}
+#enter {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: purple;
+    background-color:cadetblue;
+    transition:all 0.75s ease;
+    -webkit-transition:all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    font-weight: normal;
+}
+#enter:hover{
+    background-color: darkgoldenrod;
+    color:darkgreen;
+}
+
+ul{
+    text-align:left;
+    margin-top:20px;
+}
+
+li{
+    list-style: none;
+    padding:10px 20px;
+    color: white;
+    text-transform:capitalize;
+    font-weight: 600;
+    border-radius:5px;
+    margin-bottom: 10px;
+    background: rebeccapurple;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+}
+li:hover {
+    background: pink;
+}
+li>button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color:blueviolet;
+    font-weight: 800;
+}
+input{
+    border-radius:5px;
+    min-height: 65%;
+    padding: 5px;
+    border: none;
+}
+.done {
+    background: greenyellow;
+    color:cornflowerblue;
+
+}
+.delete {
+    display: none;
+}
